@@ -14,6 +14,14 @@
 		ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00522AFA60E0030352D /* Assets.xcassets */; };
 		ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */; };
 		ADE1FB1422B39F0200DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */; };
+		B754075527AF97EE005E0136 /* dice34roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754074E27AF97EE005E0136 /* dice34roll.mp3 */; };
+		B754075627AF97EE005E0136 /* dice roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754074F27AF97EE005E0136 /* dice roll.mp3 */; };
+		B754075727AF97EE005E0136 /* dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754075027AF97EE005E0136 /* dice.mp3 */; };
+		B754075827AF97EE005E0136 /* dice rolling sound wood surface.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754075127AF97EE005E0136 /* dice rolling sound wood surface.mp3 */; };
+		B754075927AF97EE005E0136 /* dice roll wooden table 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754075227AF97EE005E0136 /* dice roll wooden table 2.mp3 */; };
+		B754075A27AF97EE005E0136 /* dice_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754075327AF97EE005E0136 /* dice_1.mp3 */; };
+		B754075B27AF97EE005E0136 /* dice rolling dungeon and dragons.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B754075427AF97EE005E0136 /* dice rolling dungeon and dragons.mp3 */; };
+		B754076727AFA3B9005E0136 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B754074627AF937D005E0136 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		ADB0E00822AFA60E0030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB0E00A22AFA60E0030352D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B754074627AF937D005E0136 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B754074E27AF97EE005E0136 /* dice34roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice34roll.mp3; sourceTree = "<group>"; };
+		B754074F27AF97EE005E0136 /* dice roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dice roll.mp3"; sourceTree = "<group>"; };
+		B754075027AF97EE005E0136 /* dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice.mp3; sourceTree = "<group>"; };
+		B754075127AF97EE005E0136 /* dice rolling sound wood surface.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dice rolling sound wood surface.mp3"; sourceTree = "<group>"; };
+		B754075227AF97EE005E0136 /* dice roll wooden table 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dice roll wooden table 2.mp3"; sourceTree = "<group>"; };
+		B754075327AF97EE005E0136 /* dice_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice_1.mp3; sourceTree = "<group>"; };
+		B754075427AF97EE005E0136 /* dice rolling dungeon and dragons.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dice rolling dungeon and dragons.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B754076727AFA3B9005E0136 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +62,7 @@
 				ADAD913B22B0FDAE007B460A /* README.md */,
 				ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */,
 				ADB0DFFA22AFA6090030352D /* Products */,
+				B754074527AF937D005E0136 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +77,7 @@
 		ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */ = {
 			isa = PBXGroup;
 			children = (
+				B754074D27AF97EE005E0136 /* Sounds */,
 				ADB0DFFC22AFA6090030352D /* AppDelegate.swift */,
 				ADE1FB1322B39F0200DD2BD6 /* SceneDelegate.swift */,
 				ADB0E00022AFA6090030352D /* ViewController.swift */,
@@ -68,6 +87,28 @@
 				ADB0E00A22AFA60E0030352D /* Info.plist */,
 			);
 			path = "Dicee-iOS13";
+			sourceTree = "<group>";
+		};
+		B754074527AF937D005E0136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B754074627AF937D005E0136 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B754074D27AF97EE005E0136 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B754074E27AF97EE005E0136 /* dice34roll.mp3 */,
+				B754074F27AF97EE005E0136 /* dice roll.mp3 */,
+				B754075027AF97EE005E0136 /* dice.mp3 */,
+				B754075127AF97EE005E0136 /* dice rolling sound wood surface.mp3 */,
+				B754075227AF97EE005E0136 /* dice roll wooden table 2.mp3 */,
+				B754075327AF97EE005E0136 /* dice_1.mp3 */,
+				B754075427AF97EE005E0136 /* dice rolling dungeon and dragons.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +169,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B754075827AF97EE005E0136 /* dice rolling sound wood surface.mp3 in Resources */,
 				ADB0E00922AFA60E0030352D /* LaunchScreen.storyboard in Resources */,
+				B754075927AF97EE005E0136 /* dice roll wooden table 2.mp3 in Resources */,
+				B754075A27AF97EE005E0136 /* dice_1.mp3 in Resources */,
+				B754075527AF97EE005E0136 /* dice34roll.mp3 in Resources */,
 				ADB0E00622AFA60E0030352D /* Assets.xcassets in Resources */,
+				B754075627AF97EE005E0136 /* dice roll.mp3 in Resources */,
+				B754075B27AF97EE005E0136 /* dice rolling dungeon and dragons.mp3 in Resources */,
 				ADAD913C22B0FDAE007B460A /* README.md in Resources */,
+				B754075727AF97EE005E0136 /* dice.mp3 in Resources */,
 				ADB0E00422AFA6090030352D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,12 +337,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = PUDP4Y7M28;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "forkForThe.Dicee-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -306,12 +357,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = PUDP4Y7M28;
 				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.Dicee-iOS13";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "forkForThe.Dicee-iOS13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
